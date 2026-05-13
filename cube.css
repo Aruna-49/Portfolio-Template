@@ -42,7 +42,7 @@ html {
 }
 body {
   color: var(--white-color);
-  overflow: hidden;
+  overflow: visible;
 }
 
 p {
@@ -138,7 +138,7 @@ a:hover .tooltip,
     transform: scale(1) rotateY(0deg);
   }
 }
-    
+
 .section {
   position: absolute;
   width: 100%;
@@ -698,7 +698,7 @@ a:hover .tooltip,
   @media screen and (max-width: 150px) {
     .img-box {
       width: 10rem;
-      height: 10rem;
+      height: 8rem;
       padding-top: 20;
     }
     .nav {
